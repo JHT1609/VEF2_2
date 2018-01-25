@@ -1,7 +1,7 @@
 import os
 from bottle import route, run
 
-@route('/')
+@route('/hello')
 def index():
     return "Hello"
 
